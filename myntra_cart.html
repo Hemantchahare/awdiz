@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <script src="https://kit.fontawesome.com/224b353612.js" crossorigin="anonymous"></script>
+    <style>
+         *{
+        margin: 0;
+        padding: 0;
+       }
+       #screen{
+        width: 100%;
+        /* border: 5px solid black; */
+       }
+       #navbar{
+            width: 99%;
+            /* border: 3px solid red; */
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #navbar>div:nth-child(1){
+            width: 8%;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+        }
+        #navbar>div:nth-child(2){
+            width: 35%;
+            height: 100%;
+            /* border: 1px solid yellow; */
+            display: flex;
+          align-items: center;
+          justify-content: space-around;
+          Font-Weight:400;
+          Font-Size:16px ;
+          Color:rgb(15, 14, 14);
+          Font-Style:normal; 
+         }
+        #navbar>div:nth-child(3){
+            width: 30%;
+            height: 100%;
+            /* border: 1px solid brown; */
+            display: flex;
+            align-items: center;
+        }
+        #navbar>div:nth-child(4){
+            width: 15%;
+            height: 100%;
+            /* border: 1px solid blue; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #navbar>div:nth-child(4)>div>i{
+            padding-left: 10px;
+        }
+        #navbar>div:nth-child(4)>div>p{
+            font-size: 12px;
+            font-weight: 500;
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 90%;
+            height: 70%;
+        }
+        #search>div{
+            width: 90%;
+            height: 40px;
+            /* border: 1px solid black; */
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            background-color: #ebebec;
+        }
+        #search>div>div:nth-child(1){
+            width: 14%;
+            height: 100%;
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+        }
+        #search>div>div:nth-child(1)>i{
+            margin-left: 10px;
+        }
+        #body{
+            width: 100%;
+            border: 2px solid black;
+        }
+      #pic{
+        margin: 25px;
+            border: 2px solid purple;
+            display: flex;
+            justify-content: space-between;
+      }
+      #left{
+        width: 57%;
+            /* height: 300px; */
+            border: 1px solid brown;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+      }
+      #left>div{
+        width: 48%;
+            border: 2px solid green;
+            height: 400px;
+            margin-bottom: 12px;
+      }
+      #left>div>img{
+        width: 100%;
+        height: 100%;
+      }
+      #right{
+        width: 40%;
+            height: 300px;
+            border: 2px solid blue;
+      }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div>
+                
+                <img src="myntra.webp" />
+               
+            </div>
+            <div>
+                <span>Men</span>
+                <span>Women</span>
+                <span>Kids</span>
+                <span>Home&Living</span>
+                <span>Beauty</span>
+                <span>Studio</span>
+            </div>
+            <div id="search">
+                <div>
+                   <div>
+                     <i class="fa-solid fa-magnifying-glass" style="color: #ced0d4;"></i>
+                   </div>
+                  <div>
+                    <input placeholder="Search for products,Brand and More" style="width:250px; height: 30px;border: none;background-color: #ebebec;"/>
+                  </div>
+                </div>
+                
+            </div>
+            <div>
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                    <p>profile</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-heart"></i>
+                    <p>Wishlist</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <p>Bag</p>
+                </div>
+            </div>
+        </div>
+        <div id="body">
+            <div>
+                <p>Home/Clothing/Men Clothing/Tshirts/<b>HIGHLANDER Tshirts>More By HIGHLANDER</b></p>
+            </div>
+            <div id="pic">
+               <div id="left">
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16519832/2021/12/15/5038f192-7689-4b92-aea7-b360304069161639548955876HIGHLANDERMenWhiteStripedPocketsSlimFitT-shirt1.jpg"/>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16519832/2021/12/15/162066af-a144-462c-aec7-cc43031438141639548955885HIGHLANDERMenWhiteStripedPocketsSlimFitT-shirt2.jpg"/>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16519832/2021/12/15/b90e43ad-05b0-466e-855b-14be6c31ffc41639548955697HIGHLANDERMenWhiteStripedPocketsSlimFitT-shirt3.jpg"/>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16519832/2021/12/15/6c494d18-82b1-408e-a881-00720d8bcc8e1639548955689HIGHLANDERMenWhiteStripedPocketsSlimFitT-shirt6.jpg"/>
+                </div>
+               </div>
+               <div id="right">
+                  <div style="border-bottom: 1px solid black;">
+                    <h2>HIGHLANDER</h2>
+                    <p style="color: #757884;font-size: 20px;font-weight: 100;">Men White & Multicoloured Striped Slim Fit T-shirt</p>
+                    <div style="font-family: Arial, Helvetica, sans-serif;border: 1px solid rgb(164, 163, 163);width:130px;height:30px;text-align: center;padding-top: 8px;">
+                        4.2
+                        <i class="fa-solid fa-star fa-xs" style="color: #14958F;"></i> 223 Rating
+                    </div>
+                  </div>
+                  <div>
+                    <img src="rate.png"/>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
